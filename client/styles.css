@@ -1,0 +1,80 @@
+/* Hamburger Button */
+.menu-button {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 30px;
+    height: 25px;
+    justify-content: space-between;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+  }
+  
+  .menu-button div {
+    background-color: #fff;
+    height: 4px;
+    width: 100%;
+  }
+  
+  /* Navigation Menu */
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Initially hidden off-screen */
+    width: 250px;
+    height: 100%;
+    transition: left 0.3s ease-in-out;
+    z-index: 99;
+  }
+  
+  nav.active {
+    left: 0; /* Slides in from the left */
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #d57d4a;
+  }
+  
+  /* Close Button for Navigation */
+  button.close-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  /* Ensure the layout works responsively */
+  @media (max-width: 768px) {
+    .menu-button {
+      display: flex;
+    }
+  
+    nav {
+      position: fixed;
+      top: 0;
+      left: -250px;
+      width: 250px;
+    }
+  
+    nav.active {
+      left: 0;
+    }
+  }
+  
