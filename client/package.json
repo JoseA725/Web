@@ -2,6 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://JoseA725.github.io/Web",
   "type": "module",
   "scripts": {
     "dev": "vite",
