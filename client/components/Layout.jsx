@@ -23,9 +23,9 @@ export default function Layout() {
       <br></br>
       <br></br>
         <h1 className="title">José Lozano</h1>
-        <img src="../src/assets/OwnLogo.png" alt="Logo" className="logo" />
+        <img src="../assets/OwnLogo.png" alt="Logo" className="logo" />
         <Link to="/">Home</Link> <br></br> <Link to="/about">About</Link> <br></br>
-        <Link to="/education">Education</Link> <br></br>
+        <Link to="/services">Services</Link> <br></br>
         <Link to="/project">Project</Link> <br></br> <Link to="/contact">Contact</Link>
       </nav>
     </div>

@@ -1,4 +1,4 @@
-.education-container {
+.services-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +6,7 @@
     background-color: rgb(213, 211, 184);
 }
 
-.education-section {
+.services-section {
     display: flex;
     align-items: center;
     margin: 20px 0;
@@ -19,26 +19,26 @@
     border: 2px solid rgb(43, 42, 33);
 }
 
-.education-section.centered {
+.services-section.centered {
     flex-direction: column;
     text-align: center;
 }
 
-.education-section img.education-image {
+.services-section img.services-image {
     width: 150px;
     height: auto;
     margin: 0 20px;
 }
 
-.education-section img.left {
+.services-section img.left {
     order: -1; 
 }
 
-.education-section img.right {
+.services-section img.right {
     order: 1; 
 }
 
-.education-section div {
+.services-section div {
     flex: 1;
     padding: 10px;
 }
