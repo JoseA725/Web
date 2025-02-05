@@ -1,3 +1,7 @@
+/* File name: services.css */
+/* Student’s Name: José Andrés Lozano Alanís */
+/* StudentID: 301498458 */
+/* Date: 4/February/2025 */
 import React from 'react';
 import '../src/Project.css';
 
@@ -27,7 +31,7 @@ export default function Project() {
                     <h2>3D Simulation for Traffic Management</h2>
                     <p>Created a 3D simulation using Unity, Anaconda and Python for IBM to develop a traffic management system. The simulation focused on designing a realistic environment that mimics real-world traffic scenarios. It was an exciting project that required a deep understanding of systems design and simulation development.</p>
                 </div>
-                <img src="../assets/Traffic.png" alt="3D Simulation for Traffic Management" className="project-image left" />
+                <img src="../assets/traffic.png" alt="3D Simulation for Traffic Management" className="project-image left" />
             </div>
             <div className="project-section">
                 <div>
